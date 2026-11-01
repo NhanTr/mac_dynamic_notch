@@ -10,7 +10,7 @@ A Dynamic Island–style notch for macOS with live Now Playing wings, Volume/Bri
 Clone the repository and run the one-step installer (no Apple Developer certificate required):
 
 ```bash
-git clone <your-github-repo-url> DynamicNotch
+git clone https://github.com/NhanTr/mac_dynamic_notch.git DynamicNotch
 cd DynamicNotch
 ./scripts/install.sh
 ```

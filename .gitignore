@@ -1,8 +1,41 @@
+# macOS system files
 .DS_Store
-/.build
-/build
-/.swiftpm
-/Packages
-xcuserdata/
-DerivedData/
+.AppleDouble
+.LSOverride
+._*
+Icon?
+
+# Swift Package Manager & build outputs
+/.build/
+/build/
+/.swiftpm/
+/Packages/
+Package.resolved
+
+# Xcode user data & build artifacts
 *.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserdatad
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcresult
+timeline.xctimeline
+playground.xcworkspace
+
+# Distributables & archives (keep Support/AppIcon.icns tracked)
+*.app
+*.dmg
+*.pkg
+*.iconset/
+
+# Editor / IDE directories
+.vscode/
+.idea/
+*.swp
+*~
